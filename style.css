@@ -120,13 +120,19 @@ body{
     }
     .card .content{
         width: 100%;
+        top: 53%;
         left: 0;
         padding: 40px;
-        top: 53%;
     }
     .card:hover img{
         top: 30%;
         left: 50%;
         height: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+    .card .content{
+        padding: 20px;
     }
 }
